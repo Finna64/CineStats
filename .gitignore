@@ -1,0 +1,2 @@
+# the following will be ignored from Git
+.env
