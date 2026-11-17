@@ -9,7 +9,7 @@ Setup
    
 Keep .env out of version control by adding it to .gitignore.
 
-# Roadmap for future ->
+# ROADMAP BELOW
 
 # Viewing statistics
 - Compare your ratings with audience and critic scores.
