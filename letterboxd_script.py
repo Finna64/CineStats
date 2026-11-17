@@ -18,9 +18,13 @@ FUTURE IMPLEMENTATIONS:
 import re, requests
 import json
 from csv import DictReader
+import os
+from pathlib import Path
+from dotenv import load_dotenv
 
-#OMDB API Key
-API_KEY = "22b78895"
+load_dotenv(Path(__file__).with_name(".env"))
+
+API_KEY = os.getenv("API_KEY")
 
 #setting up csv data
 with open("/ratings.csv", "r") as file:
